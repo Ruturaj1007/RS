@@ -54,8 +54,8 @@ def main():
     model = load_model()
 
     with st.container():
-        st.title("⚽ Football Market Value Prediction ⚽")
-        st.subheader("Predict a player's market value using advanced ML techniques.")
+        st.title("⚽ Football Transfer Market ⚽")
+        st.subheader("Predict a player's market value")
 
     with st.container():
         buff, col, buff2 = st.columns([1, 3, 1])
